@@ -1,4 +1,28 @@
 body{
-    background-image: url("../images/memphis-colorful/memphis-colorful.png");
-    background-repeat: repeat;
+    font-family: 'Cinzel', serif;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.card-body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.jumbotron{
+    background: url("../images/sunset.jpg");
+    background-size: cover;
+}
+
+.form-control{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Cinzel', serif;
 }
