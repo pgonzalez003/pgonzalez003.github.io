@@ -1,250 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel|Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+    <Title>
         Patrick Gonzalez
-    </title>
+    </Title>
 </head>
-
 
 <body>
 
-    <div class="block">
-        <img src="./assets/images/IMG_0863.jpg" data-speed="-1" class="img-parallax">
-        <h2 id="nameHead">
-            Patrick Gonzalez
-        </h2>
-        <div class="container">
-            <div class="row" id="menuRow">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-2">
-                    <div id="navDiv1">
-                        <nav class="nav nav-pills nav-justified">
-                            <a class="nav-item nav-link active" href="#accordionExample">
-                                Portfolio
+    <div class="container">
+        <div class="row">
+            <div class="col l3"></div>
+            <div class="col l6">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" id="profilePic" src="assets/images/profilePic.JPG">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Patrick Gonzalez<i class="material-icons right">. . .</i></span>
+                        <p><a href="./work.html">Work</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Patrick is a<i class="material-icons right">close</i></span>
+                        <p>
+                            Full Stack Web Developer with a background in Communications, and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly and aesthetically pleasing applications. Known among peers for strong wit,great team moral,and diligence no matter the complexity of the project.   
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l3">
+                <div class="row">
+                    <div class="col l12">
+                        <div>
+                            <a class="btn-floating btn-large waves-effect waves-light brown" href="https://www.linkedin.com/in/patrickgonzalez1/">
+                                <i class="fab fa-linkedin-in"></i>
                             </a>
-                        </nav>
+                        </div> 
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div id="navDiv2">
-                        <nav class="nav nav-pills nav-justified">
-                            <a class="nav-item nav-link active" href="resume.pdf">
-                                Resume
+                <div class="row">
+                    <div class="col l12">
+                        <div>
+                            <a class="btn-floating btn-large waves-effect waves-light brown" href="https://github.com/pgonzalez003">
+                                <i class="fab fa-github"></i>
                             </a>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <nav class="nav nav-pills nav-justified">
-                        <a class="nav-item nav-link active" href="#contactMe">
-                            Contact
-                        </a>
-                    </nav>    
-                </div>
-                <div class="col-lg-3"></div>
-            </div>
-        </div>
-    </div>
-    <div class="block">
-        <img src="./assets/images/junk.jpg" data-speed="-1" class="img-parallax">
-        <div class="container">
-            <br>
-            <div class="row">
-                <div class="col-lg">
-                    <h2>
-                        Portfolio
-                    </h2>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg">
-                    <div class="accordion" id="accordionExample">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <button class="btn btn-link" type="button" data-toggle="collapse"
-                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    GIA
-                                </button>
-                            </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <h1>
-                                        Travel App (Beta)
-                                    </h1>
-                                    <hr>
-                                    <div class="row mx-lg-n5">
-                                        <div class="col py-3 px-lg-5 border bg-light">
-                                            <div class="flip-card">
-                                                <div class="flip-card-inner">
-                                                    <div class="flip-card-front">
-                                                        <img src="./assets/images/logo.png" id="giaLogo" alt="Avatar">
-                                                    </div>
-                                                    <div class="flip-card-back">
-                                                        <img src="./assets/images/giaCap.PNG" id="giaCap">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="https://pgonzalez003.github.io/giaApp/"
-                                                class="badge badge-primary">
-                                                GIA Deployed
-                                            </a>
-                                            <a href="https://github.com/pgonzalez003/giaApp" class="badge badge-info">
-                                                GIA Code
-                                            </a>
-                                        </div>
-                                        <div class="col py-3 px-lg-5 border bg-light">
-                                            <p>
-                                                GIA or Global Intellegince Agency, is travel based application that
-                                                allows users to have the most pertinent information at the touch of
-                                                finger. GIA will be able to tell travels the time zone, language, any
-                                                travel advisories currently in effect, and much more!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Escape the Hive!
-                                </button>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <h1>
-                                        Random Generated Number Game
-                                    </h1>
-                                    <hr>
-                                    <div class="row mx-lg-n5">
-                                        <div class="col py-3 px-lg-5 border bg-light">
-                                            <div class="flip-card">
-                                                <div class="flip-card-inner">
-                                                    <div class="flip-card-front">
-                                                        <img src="./assets/images/unitFourCapInfo.PNG" id="giaLogo">
-                                                    </div>
-                                                    <div class="flip-card-back">
-                                                        <img src="./assets/images/unitFourCap.PNG" id="giaCap">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="https://pgonzalez003.github.io/unit-4-game/"
-                                                class="badge badge-primary">Game Deployed</a>
-                                            <a href="https://github.com/pgonzalez003/unit-4-game"
-                                                class="badge badge-info">Game Code</a>
-                                        </div>
-                                        <div class="col py-3 px-lg-5 border bg-light">
-                                            <p>
-                                                You've crash landed on LV-223, an uncharted planet with hostile
-                                                lifeforms. You have one
-                                                escape pod left
-                                                and you are in need of a last-minute fuel source. Luckily the eggs of a
-                                                hostile alien race contain
-                                                enough plutonuim to send you home.
-                                                However, there are some nasty critters out there guarding those eggs.
-                                                Watch out, there's more than
-                                                slimmy Facehuggars crawling about!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="block" id="contactMe">
-        <img src="./assets/images/phone.jpg" data-speed="-1" class="img-parallax">
-        <h2 id="contactH">
-            Contact Me
-        </h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">
-                                <h3>
-                                    Name
-                                </h3>
-                            </label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="John Doe">
+                <div class="row">
+                    <div class="col l12">
+                        <div>
+                            <a class="btn-floating btn-large waves-effect waves-light brown" href="../profileHTML/assets/images/ResumeWebDev.pdf">
+                                <i class="far fa-file"></i>
+                            </a>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">
-                                <h3>
-                                    Email address
-                                </h3>
-                            </label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">
-                                <h3>
-                                    Type of Build Needed
-                                </h3>
-                            </label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option>
-                                    Personal/Blog
-                                </option>
-                                <option>
-                                    E-commerce
-                                </option>
-                                <option>
-                                    Application
-                                </option>
-                                <option>
-                                    Mobile
-                                </option>
-                                <option>
-                                    Game
-                                </option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">
-                                <h3>
-                                    Message
-                                </h3>
-                            </label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                </div>          
             </div>
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <script type="javascript" src="./assets/javascript/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
 
 </html>
