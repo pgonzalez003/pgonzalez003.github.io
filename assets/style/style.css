@@ -30,6 +30,10 @@ body{
     width: 100%;
 }
 
+#void {
+    padding-top: 15px;
+}
+
 #profilePic{
     padding-top: 10pt;
 }
