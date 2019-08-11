@@ -46,6 +46,11 @@ h4{
   color: whitesmoke;
 }
 
+.card-image img{
+  height: 100%;
+  width: 100%;
+}
+
 #aboutCont{
   background-color: #edead9;
   padding-top: 15pt;
