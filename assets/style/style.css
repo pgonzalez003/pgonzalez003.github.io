@@ -53,10 +53,10 @@ h4{
 
 #aboutCont{
   background-color: #edead9;
-  padding-top: 15pt;
+  /* padding-top: 15pt;
   padding-right: 15pt;
   padding-left: 15pt;
-  padding-bottom: 55pt;
+  padding-bottom: 55pt; */
 }
 
 * {box-sizing:border-box}
@@ -103,18 +103,19 @@ h4{
 
 /* Caption text */
 .text {
-  color: black;
+  color: white;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: black;
+  color: white;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
