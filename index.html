@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/style/style.css">
     <link rel="stylesheet" type="text/css" href="assets/style/query.css">
     <Title>
@@ -14,6 +15,18 @@
 </head>
 
 <body>
+
+        <nav class="transparent">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo right" id="logo-nav">PG</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
+                </ul>
+            </div>
+        </nav>
+
 
     <div class="container">
         <div class="row">
@@ -24,15 +37,18 @@
                         <img class="activator" id="profilePic" src="assets/images/profilePic.JPG">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Patrick Gonzalez<i class="material-icons right">. . .</i></span>
-                        <p><a href="./work.html">Work</a></p>  
+                        <span class="card-title activator grey-text text-darken-4">
+                            Patrick Gonzalez
+                            <i class="material-icons small right">more_vert</i>
+                        </span> 
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Patrick is a<i class="material-icons right">close</i></span>
                         <p>
-                            Full Stack Web Developer with a background in Communications, and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly and aesthetically pleasing applications. Known among peers for strong wit,great team moral,and diligence no matter the complexity of the project.   
+                            Adaptable & reliable profesional that seeks a fast-paced, knowledge sharing work experience. Positive and Enthusiastic team member looking to achieve goals together.  
                         </p>
-                        <p><a href="./about.html">A little more about Patrick</a></p>
+                        <p><a href="./about.html">About</a></p>
+                        <p><a href="./work.html">Work</a></p>  
                     </div>
                 </div>
             </div>
@@ -40,24 +56,26 @@
                 <div class="row" id="buttonRow">
                     <div class="col l12">
                         <div>
-                            <a class="btn-floating btn-large waves-effect light-blue darken-4" href="https://www.linkedin.com/in/patrickgonzalez1/">
+                            <a class="btn-floating btn-large waves-effect light-blue darken-4"
+                                href="https://www.linkedin.com/in/patrickgonzalez1/">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                        </div> 
+                        </div>
                     </div>
-                <!-- </div> -->
-                <!-- <div class="row"> -->
-                    
+                    <!-- </div> -->
+                    <!-- <div class="row"> -->
+
                     <div class="col l12">
                         <div>
-                            <a class="btn-floating btn-large waves-effect grey darken-4" href="https://github.com/pgonzalez003">
+                            <a class="btn-floating btn-large waves-effect grey darken-4"
+                                href="https://github.com/pgonzalez003">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
                     </div>
-                <!-- </div> -->
-                <!-- <div class="row"> -->
-                   
+                    <!-- </div> -->
+                    <!-- <div class="row"> -->
+
                     <div class="col l12">
                         <div>
                             <a class="btn-floating btn-large waves-effect grey" href="./assets/images/PG_Resume.pdf">
@@ -67,18 +85,45 @@
                     </div>
                     <div class="col l12">
                         <div>
-                            <a class="btn-floating btn-large waves-effect  green" href="https://open.spotify.com/user/1218052976?si=bANkrtiEQOmheL9gyi0R6w">
+                            <a class="btn-floating btn-large waves-effect  green"
+                                href="https://open.spotify.com/user/1218052976?si=bANkrtiEQOmheL9gyi0R6w">
                                 <i class="fab fa-spotify"></i>
                             </a>
                         </div>
                     </div>
-                </div>          
+                </div>
             </div>
         </div>
     </div>
+    <footer class="page-footer transparent">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Let's Connect!</h5>
+                    <p class="grey-text text-lighten-4">I would love to hear from you regarding collaborationn,
+                        employement, and other general inquiries at <a href="mailto:pgonzalez003@gmail.com"><u>pgonzalez003@gmail.com</u></a></p>
+                </div>
+                <!-- <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Contact Me</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3"
+                                href="https://www.linkedin.com/in/patrickgonzalez1/">LinkdIn</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/pgonzalez003">Github</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div> -->
+            </div>
+            <div id="footer-copyright">
+                © 2019 Patrick Gonzalez
+            </div>
+        </div>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./assets/js/logic.js"></script>
 </body>
 
 </html>
