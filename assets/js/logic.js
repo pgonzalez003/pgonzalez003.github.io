@@ -33,7 +33,9 @@ $(document).ready(function(){
 
 $(document).ready(function () {
   // alert("Yes!");
-  var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC&limit=1";
+
+  APIkey = "M3OKahukEnUxjI9OpTx8jCP1zHWQmm1N";
+  var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=" + APIkey +"&limit=1";
 
   $.ajax({
       url: queryURL,
