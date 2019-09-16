@@ -84,14 +84,25 @@ h4{
   padding-bottom: 55pt; */
 }
 
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
   position: relative;
-  margin: auto;
+  /* margin: auto; */
+  margin-bottom: 0;
+  padding-bottom: 0;
+  overflow: hidden;
 }
+
+.gif-image{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
 
 /* Hide the images by default */
 .mySlides {

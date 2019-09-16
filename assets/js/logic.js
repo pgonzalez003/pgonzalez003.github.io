@@ -31,7 +31,47 @@ $(document).ready(function(){
   $('.materialboxed').materialbox();
 });
 
-$(document).ready(function(){
-  $('.sidenav').sidenav();
+$(document).ready(function () {
+  // alert("Yes!");
+  var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC&limit=1";
+
+  $.ajax({
+      url: queryURL,
+      method: "GET"
+  }).then(function (response) {
+      console.log(response);
+
+      var results = response.data;
+      for (var i = 0; i < results.length; i++) {
+          console.log(results[i]);
+          var gifImg = $("<img>");
+          var gifDiv = $("<div>")
+          var animated = results[i].images.fixed_height.url;
+          var still = results[i].images.fixed_height_still.url;
+
+          gifImg.attr("src", animated);
+          gifImg.attr("data-still", still);
+          gifImg.attr("data-animate", animated);
+          gifImg.attr("data-state", "animated");
+          gifImg.addClass("gif-image");
+
+          gifDiv.append(gifImg);
+
+          $(".gifLanding").append(gifDiv);
+      }
+  });
+})
+$(document).on("click", ".gif-image", function () {
+
+  var state = $(this).attr("data-state");
+
+  if (state === "still") {
+      $(this).attr("src", $(this).attr("data-animate"));
+      $(this).attr("data-state", "animate");
+  } else {
+      $(this).attr("src", $(this).attr("data-still"));
+      $(this).attr("data-state", "still");
+  }
 });
+
     
