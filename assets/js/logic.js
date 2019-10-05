@@ -35,7 +35,7 @@ $(document).ready(function () {
   // alert("Yes!");
 
   APIkey = "M3OKahukEnUxjI9OpTx8jCP1zHWQmm1N";
-  var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=" + APIkey +"&limit=1";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=you+the+real+mvp&api_key=" + APIkey +"&limit=1";
 
   $.ajax({
       url: queryURL,
