@@ -103,6 +103,17 @@ h4{
   overflow: hidden;
 }
 
+.fas {
+  font-size: 45pt;
+  margin: 5pt;
+  color: white;
+  
+}
+
+.iconAbout {
+  text-align: center;
+}
+
 
 /* Hide the images by default */
 .mySlides {
