@@ -49,8 +49,8 @@ $(document).ready(function () {
           console.log(results[i]);
           var gifImg = $("<img>");
           var gifDiv = $("<div>")
-          var animated = results[i].images.fixed_height.url;
-          var still = results[i].images.fixed_height_still.url;
+          var animated = results[i].images.fixed_height_small.url;
+          var still = results[i].images.fixed_height_small_still.url;
 
           gifImg.attr("src", animated);
           gifImg.attr("data-still", still);

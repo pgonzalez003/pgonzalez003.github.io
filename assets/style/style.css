@@ -8,6 +8,10 @@ body{
     background-size: cover;
 }
 
+nav{
+  box-shadow: 0 0 18px 0 white;
+}
+
 #logo-nav{
   font-family: "chasquilla";
   font-size: 32pt;
@@ -61,6 +65,7 @@ h4{
   color: whitesmoke;
 }
 
+
 #footer-copyright{
   text-align: center;
 }
@@ -107,7 +112,19 @@ h4{
   font-size: 45pt;
   margin: 5pt;
   color: white;
-  
+}
+
+.fas:hover{
+  color: orange;
+  transform: rotate(180deg);
+}
+
+.fas:nth-child(2n):hover{
+  color: lime;
+}
+
+.fas:nth-child(3n):hover{
+  color: teal;
 }
 
 .iconAbout {
